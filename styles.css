@@ -1,0 +1,83 @@
+.header{
+  margin:0px 100px -16px 100px;
+  padding:0px 0px 0px 0px;
+  background-color:rgb(180,220,180);
+}
+.header-list li{
+  margin:auto 50px;
+  padding:0px 0px 0px 0px;
+  color:rgb(0,0,0);
+  display:inline-block;/*display:要素の表示の仕方、inline:横並べ、block:縦並べ*/
+}
+.home{
+  margin:0px 100px 0px 100px;
+  padding-top:5px;
+  background:rgb(255,255,255,0.8);
+
+}
+body{
+  background-image:url("C:/myhp/img/forest1.jpg");
+  background-size:cover;
+  margin:0px 100px;
+  padding:0px 0px;
+}
+li{
+  list-style:none;
+}
+.footer-list li{
+  margin:auto 50px;
+  color:rgb(0,0,0);
+  display:inline-block;
+}
+a{
+  text-decoration:none;
+}
+.main-block{
+  position:relative;
+}
+.main h1{
+  font-size:20px;
+}
+.main{
+  background:rgb(255,255,255,0.8);
+  position:absolute;
+  top:px;
+  left:28%;
+  border:solid rgb(180,220,180);
+  width:750px;
+  height:720px;
+  text-align:center;
+}
+.widget-right{
+  background:rgb(255,255,255,0.8);
+  position:absolute;
+  right:0px;
+  width:350px;
+  height:720px;
+  margin-right:100px;
+  border:solid rgb(180,220,180);
+}
+.widget-left{
+  background:rgb(255,255,255,0.8);
+  position:absolute;
+  width:350px;
+  height:720px;
+  margin-left:100px;
+  border:solid rgb(180,220,180);
+}
+h1{
+  text-align:center;/*インライン要素にはdesplay:blockを使う*/
+  padding-bottom:0px;
+  margin-bottom:0px;
+}
+p{
+  padding-top:0px;
+  padding-bottom:10px;
+  margin:0px 0px 10px 0px;
+  text-align:center;
+  border-bottom:solid rgb(180,220,180) 25px;
+}
+.footer{
+  margin:750px 100px 0px 100px;
+  background-color:rgb(180,220,180);
+}
